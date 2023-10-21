@@ -22,7 +22,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     f"- يـجـب عليـك اެݪاشـتـࢪاك [فـي هـذه الـقناة]({link}) وبعد ذلـك أعـد المـحاولـة مـࢪة أخـࢪى!",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup(
-                        [[InlineKeyboardButton("سـوࢪسـ تيبثون - TEPTHON USERBOT", url=link)]]
+                        [[InlineKeyboardButton("سـوࢪسـ هانترثون - HUNTERTHON USERBOT", url=link)]]
                     ),
                 )
                 await msg.stop_propagation()
